@@ -1,0 +1,416 @@
+{
+  "discipline": "Physique-Chimie",
+  "sections": [
+    {
+      "order": 1,
+      "sectionCode": "CHI",
+      "theme": "Exercice de chimie",
+      "declaredPoints": 7,
+      "context": "BEPC 2012. Les deux parties A et B sont indépendantes et obligatoires. Données : M(O) = 16 g/mol ; M(Fe) = 56 g/mol. Partie A : on fait une expérience sur l'électrolyse de l'eau. On a recueilli 480 cm³ de dihydrogène. Partie B : on brûle complètement 16,8 g de fer dans le dioxygène.",
+      "questions": [
+        {
+          "questionNumber": "CHI-A-1",
+          "printedNumber": "A-1",
+          "statement": "Comment identifie-t-on ce gaz ? (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "Le gaz recueilli est le dihydrogène (cathode). On l'identifie en approchant une flamme (allumette enflammée) de l'ouverture du tube : le gaz brûle avec une petite détonation (aboiement).",
+          "partialCredit": [
+            {
+              "criterion": "Méthode correcte : approcher une flamme ou une allumette enflammée du gaz",
+              "points": 0.5
+            },
+            {
+              "criterion": "Observation correcte : le gaz brûle avec une légère détonation",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "CHI-A-2",
+          "printedNumber": "A-2",
+          "statement": "Écrire l'équation bilan de la réaction chimique (1,5pts)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "Électrolyse de l'eau : 2H₂O → 2H₂ + O₂ (sous l'action du courant électrique).",
+          "partialCredit": [
+            {
+              "criterion": "Réactif et produits corrects (H₂O, H₂, O₂)",
+              "points": 0.5
+            },
+            {
+              "criterion": "Équation correctement équilibrée (2, 2, 1)",
+              "points": 0.5
+            },
+            {
+              "criterion": "Sens de la réaction et mention de l'électrolyse ou du courant électrique",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "CHI-A-3",
+          "printedNumber": "A-3",
+          "statement": "Calculer le volume de gaz recueilli à l'anode. (1,5pts)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "À l'anode on recueille le dioxygène. D'après l'équation 2H₂O → 2H₂ + O₂, 2 volumes de H₂ correspondent à 1 volume de O₂ (dans les mêmes conditions). V(O₂) = V(H₂)/2 = 480/2 = 240 cm³.",
+          "partialCredit": [
+            {
+              "criterion": "Identifie le gaz à l'anode (O₂) et le rapport 2 volumes de H₂ pour 1 volume de O₂",
+              "points": 0.5
+            },
+            { "criterion": "Calcul correct : 480 / 2", "points": 0.5 },
+            {
+              "criterion": "Résultat correct avec unité : 240 cm³",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "CHI-B-1",
+          "printedNumber": "B-1",
+          "statement": "Donner le nom du produit de la réaction. (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "La combustion vive du fer dans le dioxygène donne de l'oxyde magnétique de fer, ou tétraoxyde de trifer, de formule Fe₃O₄.",
+          "partialCredit": [
+            {
+              "criterion": "Nom correct du produit : oxyde magnétique de fer ou tétraoxyde de trifer (Fe₃O₄)",
+              "points": 1
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "CHI-B-2",
+          "printedNumber": "B-2",
+          "statement": "Calculer la masse de Fe3O4 obtenu. (2pts)",
+          "questionType": "open",
+          "points": 2,
+          "context": "On donne : M(O) = 16 g/mol ; M(Fe) = 56 g/mol.",
+          "figure": null,
+          "expectedAnswer": "Équation : 3Fe + 2O₂ → Fe₃O₄. n(Fe) = m/M = 16,8/56 = 0,3 mol. D'après l'équation, n(Fe₃O₄) = n(Fe)/3 = 0,1 mol. M(Fe₃O₄) = 3×56 + 4×16 = 232 g/mol. m(Fe₃O₄) = n × M = 0,1 × 232 = 23,2 g.",
+          "partialCredit": [
+            {
+              "criterion": "Équation bilan correcte : 3Fe + 2O₂ → Fe₃O₄",
+              "points": 0.5
+            },
+            {
+              "criterion": "Quantité de matière de fer : n(Fe) = 0,3 mol",
+              "points": 0.5
+            },
+            {
+              "criterion": "Quantité de matière de Fe₃O₄ : 0,1 mol",
+              "points": 0.5
+            },
+            {
+              "criterion": "Masse molaire 232 g/mol et masse finale 23,2 g avec unité",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "sectionCode": "MEC",
+      "theme": "Exercice de mécanique",
+      "declaredPoints": 6,
+      "context": "Un corps homogène (C) de masse volumique 0,3 g/cm³ est suspendu à un dynamomètre. Il indique 5,4 N. Données : g = 10 N/kg ; masse volumique de l'eau ρe = 1 g/cm³ (écrite « ae » dans le sujet).",
+      "questions": [
+        {
+          "questionNumber": "MEC-1-a",
+          "printedNumber": "1-a",
+          "statement": "Que signifie 5,4N ? (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": "Un corps homogène (C) de masse volumique 0,3g/cm3 est suspendu à un dynamomètre. Il indique 5,4N.",
+          "figure": null,
+          "expectedAnswer": "5,4 N est l'intensité du poids du corps (C), c'est-à-dire la force avec laquelle la Terre attire le corps. Le dynamomètre indique ce poids : P = 5,4 N.",
+          "partialCredit": [
+            {
+              "criterion": "Identifie 5,4 N comme le poids du corps (force d'attraction de la Terre)",
+              "points": 0.5
+            },
+            {
+              "criterion": "Précise que c'est l'intensité de cette force, mesurée par le dynamomètre",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "MEC-1-b",
+          "printedNumber": "1-b",
+          "statement": "Calculer sa masse. On donne g = 10N/kg (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "P = m × g donc m = P/g = 5,4/10 = 0,54 kg (soit 540 g).",
+          "partialCredit": [
+            { "criterion": "Formule correcte : m = P/g", "points": 0.5 },
+            {
+              "criterion": "Résultat correct avec unité : 0,54 kg (540 g)",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "MEC-2",
+          "printedNumber": "2",
+          "statement": "On enlève le corps (C) du dynamomètre puis on le lance vers le haut à une hauteur h = 3m. Calculer le travail de son poids. (1,5pt)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "Le corps monte de h = 3 m, donc le poids s'oppose au mouvement : le travail est résistant. W(P) = −P × h = −5,4 × 3 = −16,2 J. (La valeur 16,2 J est acceptée si le caractère résistant est précisé.)",
+          "partialCredit": [
+            {
+              "criterion": "Formule correcte : W = −P × h, travail résistant à la montée",
+              "points": 0.5
+            },
+            {
+              "criterion": "Substitution correcte : P = 5,4 N et h = 3 m",
+              "points": 0.5
+            },
+            {
+              "criterion": "Résultat correct avec signe et unité : −16,2 J",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "MEC-3-a",
+          "printedNumber": "3-a",
+          "statement": "Va –t-il flotter ou couler ? Justifier. (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": "Maintenant, on plonge ce corps dans l'eau. On donne : masse volumique de l'eau ae = 1g/cm3",
+          "figure": null,
+          "expectedAnswer": "Le corps va flotter. Sa masse volumique (0,3 g/cm³) est inférieure à celle de l'eau (1 g/cm³).",
+          "partialCredit": [
+            {
+              "criterion": "Compare correctement les masses volumiques : 0,3 g/cm³ < 1 g/cm³",
+              "points": 0.5
+            },
+            {
+              "criterion": "Conclusion correcte : le corps flotte",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "MEC-3-b",
+          "printedNumber": "3-b",
+          "statement": "Déterminer le volume d'eau déplacée par ce corps. (1,5pts)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": "Maintenant, on plonge ce corps dans l'eau. On donne : masse volumique de l'eau ae = 1g/cm3",
+          "figure": null,
+          "expectedAnswer": "Le corps flotte, donc la poussée d'Archimède équilibre son poids : ρe × V_déplacé × g = P, soit V_déplacé = m/ρe = 540 g / 1 g/cm³ = 540 cm³. Le volume du corps est V = m/ρ = 540/0,3 = 1800 cm³, mais seule une partie (540 cm³) est immergée.",
+          "partialCredit": [
+            {
+              "criterion": "Équilibre du corps flottant : poussée d'Archimède = poids",
+              "points": 0.5
+            },
+            {
+              "criterion": "Formule correcte : V_déplacé = m/ρe",
+              "points": 0.5
+            },
+            {
+              "criterion": "Résultat correct avec unité : 540 cm³",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "sectionCode": "ELE",
+      "theme": "Exercice d'électricité",
+      "declaredPoints": 5,
+      "context": "Solo fait l'étude d'un résistor.",
+      "questions": [
+        {
+          "questionNumber": "ELE-1",
+          "printedNumber": "1",
+          "statement": "Faire le schéma du montage qu'il doit réaliser (0,5pt)",
+          "questionType": "schema",
+          "points": 0.5,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "Circuit en série : générateur (source de tension réglable ou générateur et rhéostat), interrupteur, ampèremètre et résistor. Voltmètre branché en dérivation aux bornes du résistor. Symboles normalisés, ampèremètre en série, voltmètre en parallèle.",
+          "partialCredit": [
+            {
+              "criterion": "Schéma correct : générateur, interrupteur, résistor et ampèremètre en série, voltmètre en dérivation aux bornes du résistor, symboles normalisés",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "ELE-2-a",
+          "printedNumber": "2-a",
+          "statement": "Que représente cette droite pour ce résistor ? (0,5pt)",
+          "questionType": "open",
+          "points": 0.5,
+          "context": "Après l'expérience et l'exploitation des mesures, il obtient le graphique ci-dessous :",
+          "figure": "Graphique U(V) en ordonnée et I(mA) en abscisse. Droite passant par l'origine. Points marqués par des traits : (I = 50 mA, U = 1,1 V), (100 mA, 2 V), (150 mA, 3 V), (200 mA, 4 V). La droite se prolonge un peu au-delà de 200 mA.",
+          "expectedAnswer": "Cette droite est la caractéristique du résistor, c'est-à-dire la courbe U = f(I). Elle passe par l'origine, donc la tension est proportionnelle à l'intensité (loi d'Ohm : U = R × I).",
+          "partialCredit": [
+            {
+              "criterion": "Caractéristique du résistor U = f(I), tension proportionnelle à l'intensité (loi d'Ohm)",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "ELE-2-b",
+          "printedNumber": "2-b",
+          "statement": "En utilisant cette courbe, déterminer la résistance R de ce résistor. (1,5pt)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": "Après l'expérience et l'exploitation des mesures, il obtient le graphique ci-dessous :",
+          "figure": "Graphique U(V) en ordonnée et I(mA) en abscisse. Droite passant par l'origine. Points marqués par des traits : (I = 50 mA, U = 1,1 V), (100 mA, 2 V), (150 mA, 3 V), (200 mA, 4 V). La valeur 1,1 V à 50 mA ne suit pas la proportionnalité des trois autres points (probable erreur d'impression pour 1 V).",
+          "expectedAnswer": "On prend un point de la droite, par exemple (I = 200 mA = 0,2 A ; U = 4 V). R = U/I = 4 / 0,2 = 20 Ω. Vérification avec (100 mA, 2 V) : 2 / 0,1 = 20 Ω, et avec (150 mA, 3 V) : 3 / 0,15 = 20 Ω. Le point (50 mA, 1,1 V) est incohérent : il donnerait 22 Ω.",
+          "partialCredit": [
+            {
+              "criterion": "Choix d'un point lisible de la droite (valeurs U et I)",
+              "points": 0.5
+            },
+            {
+              "criterion": "Formule R = U/I avec conversion de mA en A",
+              "points": 0.5
+            },
+            {
+              "criterion": "Résultat correct avec unité : R = 20 Ω",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "ELE-3",
+          "printedNumber": "3",
+          "statement": "On monte en dérivation d »eus résistors R1 = 20Ω et R2 = 30Ω. Calculer la résistance équivalente à cette association. (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "En dérivation : 1/Réq = 1/R₁ + 1/R₂, donc Réq = (R₁ × R₂)/(R₁ + R₂) = (20 × 30)/(20 + 30) = 600/50 = 12 Ω.",
+          "partialCredit": [
+            {
+              "criterion": "Formule correcte de l'association en dérivation",
+              "points": 0.5
+            },
+            { "criterion": "Résultat correct avec unité : 12 Ω", "points": 0.5 }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "ELE-4",
+          "printedNumber": "4",
+          "statement": "Le résistor R1 est traversé par un courant de 0,06A pendant 5 minutes. Calculer la quantité de chaleur dégagée par ce résistor. (1,5pt)",
+          "questionType": "open",
+          "points": 1.5,
+          "context": "R1 = 20 Ω (donnée de la question 3).",
+          "figure": null,
+          "expectedAnswer": "Loi de Joule : Q = R × I² × t, avec R₁ = 20 Ω, I = 0,06 A et t = 5 min = 300 s. Q = 20 × (0,06)² × 300 = 20 × 0,0036 × 300 = 21,6 J.",
+          "partialCredit": [
+            {
+              "criterion": "Formule de Joule correcte : Q = R × I² × t",
+              "points": 0.5
+            },
+            {
+              "criterion": "Conversion correcte de 5 min en 300 s et substitution correcte",
+              "points": 0.5
+            },
+            {
+              "criterion": "Résultat correct avec unité : 21,6 J",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "sectionCode": "OPT",
+      "theme": "Exercice d'optique",
+      "declaredPoints": 2,
+      "context": "Une source ponctuelle S de lumière se trouve à 2cm au-dessus du plan d'un miroir plan horizontal (M). Un rayon incident SI arrive en un point I du miroir.",
+      "questions": [
+        {
+          "questionNumber": "OPT-1",
+          "printedNumber": "1",
+          "statement": "Quelle est la valeur de l'angle d'incidence ? (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": "Schéma : source S au-dessus d'un miroir plan horizontal (M) hachuré. Le rayon SI, fléché, arrive au point I du miroir en formant un angle de 30° avec la surface du miroir. Une normale verticale est tracée en I.",
+          "expectedAnswer": "L'angle d'incidence est mesuré entre le rayon incident et la normale au miroir. Le rayon fait 30° avec le plan du miroir, donc i = 90° − 30° = 60°.",
+          "partialCredit": [
+            {
+              "criterion": "Précise que l'angle d'incidence se mesure par rapport à la normale",
+              "points": 0.5
+            },
+            { "criterion": "Résultat correct : i = 60°", "points": 0.5 }
+          ],
+          "needsReview": false
+        },
+        {
+          "questionNumber": "OPT-2",
+          "printedNumber": "2",
+          "statement": "Soit S' l'image de S par le miroir (M). Calculer la distance SS'. (1pt)",
+          "questionType": "open",
+          "points": 1,
+          "context": null,
+          "figure": null,
+          "expectedAnswer": "L'image S' est symétrique de S par rapport au miroir : S' est à 2 cm derrière le miroir. SS' = 2 × 2 = 4 cm.",
+          "partialCredit": [
+            {
+              "criterion": "Utilise la symétrie : S' est à la même distance du miroir que S (2 cm)",
+              "points": 0.5
+            },
+            {
+              "criterion": "Résultat correct avec unité : SS' = 4 cm",
+              "points": 0.5
+            }
+          ],
+          "needsReview": false
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "ELE-2-a et ELE-2-b : sur le graphique, le point (50 mA ; 1,1 V) casse la proportionnalité des trois autres points (100 ; 2), (150 ; 3), (200 ; 4). La valeur attendue est 1 V. R = 20 Ω a été calculé avec les points cohérents.",
+    "ELE-3 : le sujet contient une faute de frappe (« d »eus » pour « deux »). Les symboles Ω sont mal placés dans le texte mais lisibles.",
+    "MEC-3-a et MEC-3-b : la masse volumique de l'eau est écrite « ae » dans le sujet au lieu de ρe.",
+    "MEC-2 : la formulation « on le lance vers le haut à une hauteur h = 3m » est ambiguë. Elle a été interprétée comme une montée de 3 m, donc un travail résistant W = −16,2 J.",
+    "OPT-1 : l'angle de 30° du schéma est entre le rayon et le miroir, pas entre le rayon et la normale. L'angle d'incidence attendu est donc 60°.",
+    "ELE-1 : la question de schéma demande un dessin, la correction est donc décrite en texte. Le correcteur doit comparer avec le schéma de l'élève.",
+    "Fautes mineures du sujet : « brule » pour « brûle », « Va –t-il » pour « Va-t-il ». Pour CHI-A-3, les conditions de température et de pression ne sont pas données, mais le rapport des volumes suffit.",
+    "Les points déclarés (7, 6, 5, 2) correspondent aux sommes des questions, pour un total de 20."
+  ]
+}

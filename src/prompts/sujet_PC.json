@@ -1,0 +1,144 @@
+{
+    "subject": "Sujet d'examen de physique-chimie couvrant les domaines de la chimie, mécanique et électricité.",
+    "sections": [
+        {
+            "theme": "Chimie",
+            "questions": [
+                {
+                    "question_number": "A1",
+                    "statement": "Comment identifie-t-on ce gaz ?",
+                    "question_type": "open",
+                    "points": 1,
+                    "excepted_answer": "Il s'agit de dihydrogène (H₂)."
+                },
+                {
+                    "question_number": "A2",
+                    "statement": "Écrire l’équation bilan de la réaction chimique.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "2H₂O(l) → 2H₂(g) + O₂(g)"
+                },
+                {
+                    "question_number": "A3",
+                    "statement": "Calculer le volume de gaz recueilli à l’anode.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "Utiliser la loi des gaz parfaits : V = nRT/P. Nécessite les valeurs de n (mol), R (constante des gaz parfaits) et T (température en Kelvin).  Le résultat doit être exprimé en litres."
+                },
+                {
+                    "question_number": "B1",
+                    "statement": "Donner le nom du produit de la réaction.",
+                    "question_type": "short_answer",
+                    "points": 1,
+                    "excepted_answer": "Dioxygène (O₂)"
+                },
+                {
+                    "question_number": "B2",
+                    "statement": "Calculer la masse de Fe₂O₃ obtenu.",
+                    "question_type": "open",
+                    "points": 2,
+                    "excepted_answer": "Utiliser les masses molaires données pour calculer la masse molaire de Fe₂O₃ (159.69 g/mol).  Calculer la quantité de fer réagissant puis utiliser le rapport stœchiométrique pour trouver la masse de Fe₂O₃."
+                }
+            ]
+        },
+        {
+            "theme": "Mécanique",
+            "questions": [
+                {
+                    "question_number": "C1a",
+                    "statement": "Que signifie 5,4N ?",
+                    "question_type": "short_answer",
+                    "points": 1,
+                    "excepted_answer": "Force de traction."
+                },
+                {
+                    "question_number": "C1b",
+                    "statement": "Calculer sa masse.",
+                    "question_type": "open",
+                    "points": 1,
+                    "excepted_answer": "m = F/g = 5.4N / 10 N/kg = 0.54 kg"
+                },
+                {
+                    "question_number": "C2",
+                    "statement": "Calculer le travail de son poids.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "W = F * h = 5.4N * 3m = 16.2 J"
+                },
+                {
+                    "question_number": "C3a",
+                    "statement": "Va-t-il flotter ou couler ? Justifier.",
+                    "question_type": "open",
+                    "points": 1,
+                    "excepted_answer": "Il va couler car sa masse volumique (0.93 g/cm³) est supérieure à celle de l'eau (1 g/cm³)."
+                },
+                {
+                    "question_number": "C3b",
+                    "statement": "Déterminer le volume d’eau déplacée par ce corps.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "Volume déplacé = Volume du corps = Masse / masse volumique = (0.54 kg * 1000 g/kg) / 0.93 g/cm³ ≈ 580 cm³."
+                }
+            ]
+        },
+        {
+            "theme": "Électricité",
+            "questions": [
+                {
+                    "question_number": "D1",
+                    "statement": "Faire le schéma du montage qu’il doit réaliser.",
+                    "question_type": "schema",
+                    "points": 0.5,
+                    "excepted_answer": "Schéma d'un circuit simple avec une source de tension et un résistor."
+                },
+                {
+                    "question_number": "D2",
+                    "statement": "Après l’expérience et l’exploitation des mesures, il obtient le graphique ci-dessous : ... (graphique fourni)",
+                    "question_type": "open",
+                    "points": 0.5,
+                    "excepted_answer": "Analyse du graphique pour identifier la relation entre U et I."
+                },
+                {
+                    "question_number": "D3a",
+                    "statement": "Que représente cette droite pour ce résistor ?",
+                    "question_type": "short_answer",
+                    "points": 0.5,
+                    "excepted_answer": "Loi d'Ohm."
+                },
+                {
+                    "question_number": "D3b",
+                    "statement": "En utilisant cette courbe, déterminer la résistance R de ce résistor.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "Calculer la pente de la droite (ΔU/ΔI) qui représente la résistance R."
+                },
+                {
+                    "question_number": "D4",
+                    "statement": "Le résistor R1 est traversé par un courant de 0,06A pendant 5 minutes. Calculer la quantité de chaleur dégagée par ce résistor.",
+                    "question_type": "open",
+                    "points": 1.5,
+                    "excepted_answer": "Utiliser Q = R * I² * t. Nécessite le calcul de R à partir du graphique."
+                }
+            ]
+        },
+        {
+            "theme": "Optique",
+            "questions": [
+                {
+                    "question_number": "E1",
+                    "statement": "Quelle est la valeur de l’angle d’incidence ?",
+                    "question_type": "short_answer",
+                    "points": 1,
+                    "excepted_answer": "30°"
+                },
+                {
+                    "question_number": "E2",
+                    "statement": "Soit S' l'image de S par le miroir (M). Calculer la distance SS'.",
+                    "question_type": "open",
+                    "points": 1,
+                    "excepted_answer": "La distance est le double de la distance entre la source et le miroir : SS' = 2 * 20 cm = 40 cm."
+                }
+            ]
+        }
+    ]
+}
