@@ -12,6 +12,36 @@ import type { ExamCopyAttributes } from "../types/exam-copy.types.js";
 import ExamCopyRepository from "../repositories/exam-copy.repository.js";
 
 export default class ExamSubjectController {
+  public static async create(req: Request, res: Response) {
+    try {
+      const files = req.files as Express.Multer.File[];
+      if (!files || files.length === 0) {
+        return res
+          .status(400)
+          .json({ error: "Aucun fichier n'a été fourni dans le champ 'files'." });
+      }
+
+      const { disciplineId, description } = req.body;
+
+      return res.status(201).json(
+        await ExamSubjectService.create(
+          files,
+          disciplineId !== undefined ? parseInt(disciplineId) : undefined,
+          description,
+        ),
+      );
+    } catch (err) {
+      console.error(err);
+      if (err instanceof UserInputException) {
+        res.status(400).json({ error: err.message });
+      } else if (err instanceof ServerErrorException) {
+        res.status(500).json({ error: "Erreur interne du serveur" });
+      } else {
+        res.status(500).json({ message: "Une erreur s'est produite" });
+      }
+    }
+  }
+
   public static async getById(req: Request, res: Response) {
     try {
       const idStr = req.params.id;
@@ -30,6 +60,38 @@ export default class ExamSubjectController {
           error:
             "Une erreur est survenue lors de la récupération du sujet d'examen.",
         });
+      }
+    }
+  }
+
+  public static async importAnalysis(req: Request, res: Response) {
+    try {
+      const idStr = req.params.id;
+      if (typeof idStr != "string") throw "invalid format of id";
+      const id = parseInt(idStr);
+
+      const file = req.file as Express.Multer.File | undefined;
+      if (!file) {
+        return res
+          .status(400)
+          .json({ error: "Aucun fichier n'a été fourni dans le champ 'file'." });
+      }
+
+      return res.json(
+        await ExamSubjectService.importAnalysis(id, file.buffer),
+      );
+    } catch (err) {
+      console.error(err);
+      if (err instanceof UserInputException) {
+        res.status(400).json({ error: err.message });
+      } else if (err instanceof EntityNotFoundException) {
+        res
+          .status(404)
+          .json({ error: "La ressource demandée est introuvable" });
+      } else if (err instanceof ServerErrorException) {
+        res.status(500).json({ error: "Erreur interne du serveur" });
+      } else {
+        res.status(500).json({ message: "Une erreur s'est produite" });
       }
     }
   }

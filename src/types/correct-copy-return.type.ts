@@ -1,17 +1,16 @@
 export type CorrectCopyReturnType = {
+  studentName: string;
   sections: section[];
-  student_name: string;
-  note_finale: number;
-  note_sur: number;
 };
 
 type section = {
-  theme: string;
+  sectionCode: string;
   questions: question[];
-  total: number;
 };
 
 type question = {
-  question_number: string;
+  questionNumber: string;
   score: number;
+  needsReview: boolean;
+  comment: string | null;
 };

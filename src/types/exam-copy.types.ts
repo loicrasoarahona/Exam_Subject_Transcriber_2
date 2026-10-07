@@ -38,4 +38,6 @@ export interface ExamCopyQuestionResultAttributes {
   examQuestionId?: number;
   examQuestion?: ExamSubjectQuestionAttributes;
   score?: number;
+  needsReview?: boolean;
+  comment?: string | null;
 }

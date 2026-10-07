@@ -33,6 +33,15 @@ ExamCopyQuestionResult.init(
       type: DataTypes.FLOAT,
       allowNull: false,
     },
+    needsReview: {
+      type: DataTypes.BOOLEAN,
+      allowNull: true,
+      defaultValue: false,
+    },
+    comment: {
+      type: DataTypes.TEXT,
+      allowNull: true,
+    },
   },
   { sequelize, modelName: "ExamCopyQuestionResult" },
 );

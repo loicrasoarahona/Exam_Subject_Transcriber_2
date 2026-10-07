@@ -8,6 +8,18 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 router.get("/", ExamSubjectController.getAll);
 
+router.post(
+  "/",
+  (req, res, next) => {
+    upload.array("files")(req, res, (err) => {
+      if (err)
+        return res.status(400).json({ error: `Erreur multer: ${err.message}` });
+      next();
+    });
+  },
+  ExamSubjectController.create,
+);
+
 router.get("/:id", ExamSubjectController.getById);
 
 router.get("/:id/to_csv", ExamSubjectController.extractCsv);
@@ -27,6 +39,18 @@ router.post(
 router.get(
   "/:id/revalidate-analysis",
   ExamSubjectController.revalidateAnalysis,
+);
+
+router.post(
+  "/:id/import-analysis",
+  (req, res, next) => {
+    upload.single("file")(req, res, (err) => {
+      if (err)
+        return res.status(400).json({ error: `Erreur multer: ${err.message}` });
+      next();
+    });
+  },
+  ExamSubjectController.importAnalysis,
 );
 
 router.get("/:id/exam-copies", ExamSubjectController.getAllCopies);

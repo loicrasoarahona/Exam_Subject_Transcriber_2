@@ -1,4 +1,4 @@
-import type { ExamCopyAttributes } from "./ExamCopyTypes.js";
+import type { ExamCopyAttributes } from "./exam-copy.types.js";
 
 export interface DisciplineAttributes {
   id?: number;
@@ -10,9 +10,9 @@ export interface ExamSubjectAttributes {
   filename?: string;
   analysis?: ExamSubjectAnalysisAttributes;
   examCopies?: ExamCopyAttributes[];
-  disciplineId?: number;
+  disciplineId?: number | undefined;
   discipline?: DisciplineAttributes;
-  description?: string;
+  description?: string | undefined;
 }
 
 export interface ExamSubjectAnalysisAttributes {
@@ -32,8 +32,8 @@ export interface ExamSubjectSectionAttributes {
   order?: number;
   sectionCode?: string;
   theme?: string;
-  declaredPoints?: number;
-  context?: string;
+  declaredPoints?: number | null;
+  context?: string | null;
   questions?: ExamSubjectQuestionAttributes[];
 }
 
@@ -51,10 +51,10 @@ export interface ExamSubjectQuestionAttributes {
   statement?: string;
   questionType?: string;
   points?: number;
-  context?: string;
-  figure?: string;
+  context?: string | null;
+  figure?: string | null;
   expectedAnswer?: string;
   partialCredit?: PartialCreditCriterionAttributes[];
   needsReview?: boolean;
-  options?: string[];
+  options?: string[] | undefined;
 }

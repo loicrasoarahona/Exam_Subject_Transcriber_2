@@ -6,7 +6,6 @@ import examSubjectRouter from "./routes/exam-subject.route.js";
 import testOllamaRouter from "./routes/test-ollama.route.js";
 import disciplineRouter from "./routes/discipline.route.js";
 import testRouter from "./routes/test.route.js";
-import examSubjectNonRestRouter from "./routes/exam-subject-non-rest.route.js";
 import { setupModelRelations } from "./models/setup.js";
 import { createDisciplineDefaultData, initDB } from "./config/init.js";
 import path from "path";
@@ -31,7 +30,6 @@ async function main() {
     app.use("/test-ollama", testOllamaRouter);
     app.use("/test", testRouter);
     app.use("/disciplines", disciplineRouter);
-    app.use("/normal-api/exam-subjects", examSubjectNonRestRouter);
     app.use(
       "/ressources/subjects",
       express.static(path.join(__dirname, "..", "uploads", "exam-subjects")),
