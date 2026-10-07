@@ -1,12 +1,12 @@
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
-import subjectTranscriberRouter from "./nonRestRoutes/subject-transcriber.route.js";
+import subjectTranscriberRouter from "./routes/subject-transcriber.route.js";
 import examSubjectRouter from "./routes/exam-subject.route.js";
-import testOllamaRouter from "./nonRestRoutes/test-ollama.route.js";
+import testOllamaRouter from "./routes/test-ollama.route.js";
 import disciplineRouter from "./routes/discipline.route.js";
-import testRouter from "./nonRestRoutes/test.route.js";
-import examSubjectNonRestRouter from "./nonRestRoutes/exam-subject-non-rest.route.js";
+import testRouter from "./routes/test.route.js";
+import examSubjectNonRestRouter from "./routes/exam-subject-non-rest.route.js";
 import { setupModelRelations } from "./models/setup.js";
 import { createDisciplineDefaultData, initDB } from "./config/init.js";
 import path from "path";

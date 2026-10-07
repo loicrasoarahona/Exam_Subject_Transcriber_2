@@ -1,5 +1,5 @@
 import { Router } from "express";
-import ExamSubjectNonRestController from "../nonRestControllers/exam-subject-non-rest.controller.js";
+import ExamSubjectNonRestController from "../controllers/exam-subject-non-rest.controller.js";
 import multer from "multer";
 
 const router = Router();
